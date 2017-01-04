@@ -1,7 +1,7 @@
 name: ""
 description: ""
 
-url: "http://ycpcs.github.io/cs360-spring2017"
+url: "//ycpcs.github.io/cs360-spring2017"
 
 markdown: kramdown
 kramdown:
