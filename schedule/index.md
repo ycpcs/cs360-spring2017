@@ -12,8 +12,7 @@ All reading materials are from the course textbook:
 > Date | Lecture Topics | Reading |
 > ---- | -------------- | ------- |
 > Jan 18    | [Lecture 1: Intro to Algorithms](../lectures/lecture01.html) | Ch. 1 |
-> Jan 20    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) | Ch. 2.1-2.2 |
-> Jan 23    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) cont. | Ch. 2.1-2.2 |
+> Jan 20,23 | [Lecture 2: Insertion Sort](../lectures/lecture02.html) | Ch. 2.1-2.2 |
 > Jan 25    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
 > Jan 27    | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
 > Jan 30    | [Lecture 5: Master Theorem](../lectures/lecture05.html) <br /> **Assignment 1 Due** | Ch. 4.5 |
