@@ -17,8 +17,7 @@ All reading materials are from the course textbook:
 > Jan 27    | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
 > Jan 30    | [Lecture 5: Master Theorem](../lectures/lecture05.html) <br /> **Assignment 1 Due** | Ch. 4.5 |
 > Feb 1     | [Lecture 6: Recurrence](../lectures/lecture06.html) | Ch. 4.3-4.4 |
-> Feb 3     | [Lecture 7: Heapsort](../lectures/lecture07.html) | Ch. 6 |
-> Feb 6     | [Lecture 7: Heapsort cont.](../lectures/lecture07.html)  <br /> **Assignment 2 Due** |   |
+> Feb 3,6   | [Lecture 7: Heapsort](../lectures/lecture07.html)  <br /> **Assignment 2 Due 2/6** | Ch. 6 |
 > Feb 8     | **EXAM I - Due Feb 13**               |             |
 > Feb 10    | [Lecture 8: Quicksort](../lectures/lecture08.html) | Ch. 7 |
 > Feb 13,15 | [Lecture 9: Linear Sorting](../lectures/lecture09.html)  | Ch. 8 |
