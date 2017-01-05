@@ -28,11 +28,11 @@ B.4-1
 >
 > 15-4 - This problem is *tricky* (as if any dynamic programming problem isn't). To start, define a quantity *e(i,j)* that tracks the number of extra spaces at the end of a line as
 >
-> ![image](images/assign07/extras.png)
+> ![image](images/assign06/extras.png)
 >
 > Then the cost of a line *lc(i,j)* is given by
 >
-> ![image](images/assign07/linecost.png)
+> ![image](images/assign06/linecost.png)
 >
 > Let the optimal cost of the first *j* words be *c(j)* and define a recursion that represents the optimality.
 >

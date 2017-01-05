@@ -18,7 +18,7 @@ Book Questions from *Introduction to Algorithms - 3rd ed.*
 
 > 5.2-4 - Define an indicator random variable
 >
-> ![image](images/assign06/expect.png)
+> ![image](images/assign05/expect.png)
 >
 > Then E[X] will represent the number of people that receive their own hat back.
 >
