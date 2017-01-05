@@ -101,7 +101,7 @@ Thus we have reduced the run time from *exponential* to *polynomial*! If in addi
 
 Consider the following price table
 
->     length      |   0   |   1   |   2   |   3   |   4   |   5   |
+> length          |   0   |   1   |   2   |   3   |   4   |   5   |
 > --------------- | ----- | ----- | ----- | ----- | ----- | ----- |
 > *p*<sub>i</sub> |   0   |   3   |   5   |  10   |  12   |  14   |
 > *r*<sub>i</sub> | **0** |   /   |   /   |   /   |   /   |   /   |
@@ -114,7 +114,7 @@ Computing the *r*<sub>i</sub>'s with *r*<sub>0</sub> = 0
 
 > ![image](images/lecture12/r1s1.png)
 
->     length      |   0   |   1   |   2   |   3   |   4   |   5   |
+> length          |   0   |   1   |   2   |   3   |   4   |   5   |
 > --------------- | ----- | ----- | ----- | ----- | ----- | ----- |
 > *p*<sub>i</sub> |   0   |   3   |   5   |  10   |  12   |  14   |
 > *r*<sub>i</sub> |   0   | **3** |   /   |   /   |   /   |   /   |
