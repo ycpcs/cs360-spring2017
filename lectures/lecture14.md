@@ -52,7 +52,7 @@ where *A*<sub>ik</sub> and *A*<sub>kj</sub> must also be optimal (otherwise if w
 
 *Step 2: Define the recursive solution (top-down)*
 
-Let *c[i,j]* = |*A*<sub>ij</sub>|, then
+Let *c[i,j]* = \|*A*<sub>ij</sub>\|, then
 
 > ![image](images/lecture14/actselformula.png)
 
