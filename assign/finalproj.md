@@ -6,7 +6,7 @@ title: "Final Project"
 CS360 Final Project
 ===================
 
-**Due: Monday, May 9th (101) or May 11th (102) 10:15am-12:15pm (final exam period)**
+**Due: Monday, May 8th (101) or May 10th (102) 10:15am-12:15pm (final exam period)**
 
 Email a .pdf of the final report to dbabcock@ycp.edu by noon on May 11th.
 

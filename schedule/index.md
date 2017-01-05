@@ -26,7 +26,7 @@ All reading materials are from the course textbook:
 > Feb 24    | **Assignment 4 Due 2/24** |   |
 > Feb 27, Mar 1,3 | **NO CLASS - WINTER BREAK** |    |
 > Mar 6     | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
-> Mar 8     | Exam II Review  <br /> **Empirical Comparison Report Due** |    |
+> Mar 8     | Exam II Review  <br /> **Empirical Comparison Report Due 3/8** |    |
 > Mar 10    | **EXAM II - Due Mar 15**               |             |
 > Mar 13    | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
 > Mar 15    | [Lecture 13: Dynamic Programming - LCS](../lectures/lecture13.html) | Ch. 15 |
