@@ -21,7 +21,6 @@ All information about the course will be posted here.
 
 
 <!--
-* **Jan 20** - Welcome back!
 * **Jan 25 - NO CLASS (Inclement Weather)**
 * **Feb 1** - **UPDATE** Assignment 1 Due
 * **Feb 3 - NO CLASS**
