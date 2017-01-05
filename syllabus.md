@@ -46,9 +46,9 @@ Course Structure and Expectations
 
 Class meetings will be primarily a discussion of various algorithmic analysis concepts illustrated through pseudocode implementations. It is important to come to class prepared to ask questions related to the topic and/or work on practice exercises which are designed to reinforce the concepts from the lecture notes. There will be a series of written homework assignments to be completed individually.
 
-All the programming assignments are cross platform so you may use either Visual Studio 2012 (Windows), XCode (Mac), or command line (Linux).
+All the programming assignments are cross platform so you may use either Visual Studio (Windows), XCode (Mac), or command line (Linux).
 
-There will be written homework assignments, five midterm exams, and a final project.
+There will be written homework assignments, a midterm empirical comparison report, four midterm exams, and a final project.
 
 We will be covering a significant amount of material in the course at a rapid pace, so it is imperative that you keep up by participating in the class meetings.
 
@@ -70,9 +70,10 @@ Policies
 
 Your overall grade for the course will be determined as follows:
 
--   Homework assignments: 15%
--   Midterm exams: 75% (15% each)
--   Final project: 10%
+-   Homework assignments: 10%
+-   Midterm empirical comparison report: 10%
+-   Midterm exams: 65%
+-   Final project: 15%
 
 Grades are assigned on a 100-point scale:
 
@@ -89,15 +90,7 @@ Grades are assigned on a 100-point scale:
 
 ### Course website
 
-Please check the [course web page](<http://ycpcs.github.io/cs360-spring2015/>), regularly for important announcements.
-
-### Exams
-
-**No make-up exams will be given without approval of the instructor prior to class unless proof of extreme emergency or illness is provided.**
-
-**You must receive a score of 70+ on AT LEAST ONE exam to earn a passing grade for the course.**
-
-Exams will consist of an in-class portion and a take-home portion. The in-class portion will be closed book. The take-home portion will be open book, lecture notes, and homework solutions.
+Please check the [course web page](<http://ycpcs.github.io/cs360-spring2017/>), regularly for important announcements.
 
 ### Reading Assignments
 
@@ -108,6 +101,18 @@ Reading assignments are posted on the [course schedule](schedule/index.html). I 
 Programming assignments will consist of written questions along with occasional implementation of *pseudocode* algorithmic solutions to the problems. Collaboration on homework assignments is encouraged, but each student must submit their own solutions that demonstrate their understanding of the material.
 
 Homework assignments will be collected at the **beginning** of class. Late assignments will be marked down 20% per day late. **No credit will be given for assignments that are more than three (3) days late.**
+
+### Empirical Comparison Report
+
+Several homework assignments will include a sort implementation question to generate empirical data for different size inputs. The comparison report will require students to examine the fit of the empirical data to asymptotic bounds, and then provide a detailed discussion of how the different sorting algorithms compare with each other. Further details will be provided later in the semester.
+
+### Exams
+
+**No make-up exams will be given without approval of the instructor prior to class unless proof of extreme emergency or illness is provided.**
+
+**You must receive a score of 70+ on AT LEAST ONE exam to earn a passing grade for the course.**
+
+Exams will consist of an in-class portion and a take-home portion. The in-class portion will be closed book. The take-home portion will be open book, lecture notes, and homework solutions.
 
 ### Final Project
 
