@@ -30,7 +30,7 @@ Insertion sort implementation.
 
 **Implementation**
 
-A skeleton project is provided in [CS360\_Sorter\_Insert.zip](../assign/src/CS360_Sorter_Insert.zip). The zip file contains both a Visual Studio 2013 project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
+A skeleton project is provided in [CS360\_Sorter\_Insert.zip](../assign/src/CS360_Sorter_Insert.zip). The zip file contains both a Visual Studio project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
 
 > -   For each input size, the program generates a *random* array **D[]**
 > -   **D[]** is copied into the array **A[]** *prior* to each sorting function call (such that each sort works on the *same* data sets)
@@ -67,3 +67,47 @@ Once the data for all input sizes and element ranges have been generated, make a
     6        A[i+1] = A[i]
     7        i = i - 1
     8     A[i+1] = key
+
+**HINTS:**
+
+Function call statements **DO NOT** increment the counter since their runtime is evaluated by the execution of the function.
+
+Return statement **DO NOT** increment the counter.
+
+Loop statements, i.e. **for** and **while**, will execute *one more* time than the statements in the loop body. Hence a counter can be added to a loop as follows
+
+    for (...) {
+       count++;
+       // Body of loop
+    }
+    count++;
+    
+    while (...) {
+       count++;
+       // Body of loop
+    }
+    count++;
+    
+For simple logic constructs, e.g. **if**, **if/else**, there only needs to be a single count update since only one branch will execute depending on the result of the conditions
+
+    if (...) {
+       // Body of if branch
+    } else {
+       // Body of else branch
+    }
+    count++;
+    
+For chained logical structures, i.e. **if/else if/ else**, there will need to be counters after each condition (but *not* in the else branch) since they will be sequentially evaluated
+
+    if (...) {
+       count++;
+       // Body of first if branch
+    } else if (...) {
+       count++;
+       // Body of second if branch
+    } else if (...) {
+       count++;
+       // Body of third if branch
+    } else {
+       // Body of else branch
+    }

@@ -78,7 +78,7 @@ Once the data for all input sizes and element ranges have been generated, make a
     6  for j = 1 to n2
     7     R[j] = A[q+j]
     8  L[n1+1] = INF
-    9  R[n1+1] = INF
+    9  R[n2+1] = INF
     10 i = 1
     11 j = 1
     12 for k = p to r
