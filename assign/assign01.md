@@ -56,6 +56,8 @@ Once the data for all input sizes and element ranges have been generated, make a
 > -   Plot number of inputs *n* vs. empirical average runtimes as **data points**
 > -   Show the *best fit* asymptotic **curve** for **cn**<sup>2</sup> appropriate for the sort. Determine an *approximate* value of **c** to the nearest 0.5 for each sort that fits the actual data relatively well. (Hint: Simply manually choose values for each **c** and plot the corresponding asymptotic curve until it fits the data *reasonably* well, i.e. you do not need to mathematically find the "best-fit" values.)
 
+**Hint:** To plot **cn**<sup>2</sup>, consider making another column in the spreadsheet that computes the values for each empirical input size *n* and then plot that data as connected points without showing the individual data points.
+
 *Insertion Sort*
 
     INSERTION-SORT(A)
@@ -88,8 +90,13 @@ Loop statements, i.e. **for** and **while**, will execute *one more* time than t
     }
     count++;
     
-For simple logic constructs, e.g. **if**, **if/else**, there only needs to be a single count update since only one branch will execute depending on the result of the conditions
+For simple logic constructs, e.g. **if**, **if/else**, a count update can be added after the structure since only one branch will execute depending on the result of the condition
 
+    if (...) {
+       // Body of if
+    }
+    count++;
+    
     if (...) {
        // Body of if branch
     } else {
@@ -97,17 +104,18 @@ For simple logic constructs, e.g. **if**, **if/else**, there only needs to be a 
     }
     count++;
     
-For chained logical structures, i.e. **if/else if/ else**, there will need to be counters after each condition (but *not* in the else branch) since they will be sequentially evaluated
+For chained logical structures, i.e. **if/else if/ else**, there will need to be counters in *each* branch for the *total* number of conditions evaluated since they execute sequentially
 
     if (...) {
        count++;
        // Body of first if branch
     } else if (...) {
-       count++;
+       count += 2;
        // Body of second if branch
     } else if (...) {
-       count++;
+       count += 3;
        // Body of third if branch
     } else {
+       count += however many if conditions there are
        // Body of else branch
     }

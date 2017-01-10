@@ -32,7 +32,7 @@ Merge sort implementation.
 
 **Implementation**
 
-A skeleton project is provided in [CS360\_Sorter\_Merge.zip](../assign/src/CS360_Sorter_Merge.zip). The zip file contains both a Visual Studio 2013 project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
+A skeleton project is provided in [CS360\_Sorter\_Merge.zip](../assign/src/CS360_Sorter_Merge.zip). The zip file contains both a Visual Studio project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
 
 > -   For each input size, the program generates a *random* array **D[]**
 > -   **D[]** is copied into the array **A[]** *prior* to each sorting function call (such that each sort works on the *same* data sets)
@@ -44,7 +44,7 @@ A skeleton project is provided in [CS360\_Sorter\_Merge.zip](../assign/src/CS360
 
 Implement the sort algorithm *as given in the pseudocode below* for merge sort. Insert counter increment statements (note: a **count** global variable is provided), into each sorting function for each *executable* line of *pseudocode* (e.g. count all three lines required to implement a swap as a *single* operation). Use this counter to *empirically* measure the runtime of each sort. Only increment the counter for statements *within* the sorting functions, i.e. do not include any initialization overhead incurred in **main()** or the utility functions. Note that **count** is reset prior to each sort call but the results are stored in a 2D array **counter** which is used to display a table of all results once all the sorts and runs have completed.
 
-Generate runs for 13 input sizes using increasing powers of 2 from 2<sup>4</sup> = 16 to 2<sup>16</sup> = 65536.
+Generate runs for 13 input sizes by changing the **\#define MAX\_RUNS** symbolic constant. This will generate data for increasing powers of 2 from 2<sup>4</sup> = 16 to 2<sup>16</sup> = 65536.
 
 The **\#define NUM\_AVG** sets the number of data sets of each size to generate in order to compute an *average* runtime for each size. This value should be set to a reasonable number, e.g. 10, to give a good approximation of the *average* runtime of each sort. Note that the larger the value that is chosen, the longer the program will take to run.
 
@@ -88,3 +88,53 @@ Once the data for all input sizes and element ranges have been generated, make a
     16    else
     17       A[k] = R[j]
     18       j = j + 1
+
+**HINTS:**
+
+Function call statements **DO NOT** increment the counter since their runtime is evaluated by the execution of the function.
+
+Return statement **DO NOT** increment the counter.
+
+Loop statements, i.e. **for** and **while**, will execute *one more* time than the statements in the loop body. Hence a counter can be added to a loop as follows
+
+    for (...) {
+       count++;
+       // Body of loop
+    }
+    count++;
+    
+    while (...) {
+       count++;
+       // Body of loop
+    }
+    count++;
+    
+For simple logic constructs, e.g. **if**, **if/else**, a count update can be added after the structure since only one branch will execute depending on the result of the condition
+
+    if (...) {
+       // Body of if
+    }
+    count++;
+    
+    if (...) {
+       // Body of if branch
+    } else {
+       // Body of else branch
+    }
+    count++;
+    
+For chained logical structures, i.e. **if/else if/ else**, there will need to be counters in *each* branch for the *total* number of conditions evaluated since they execute sequentially
+
+    if (...) {
+       count++;
+       // Body of first if branch
+    } else if (...) {
+       count += 2;
+       // Body of second if branch
+    } else if (...) {
+       count += 3;
+       // Body of third if branch
+    } else {
+       count += however many if conditions there are
+       // Body of else branch
+    }
