@@ -22,7 +22,7 @@ Heap sort and quick sort implementations
 
 **Implementations**
 
-A skeleton project is provided in [CS360\_Sorter\_Heap\_Quick.zip](../assign/src/CS360_Sorter_Heap_Quick.zip). The zip file contains both a Visual Studio project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
+A skeleton project is provided in [CS360\_Sorter\_Heap\_Quick.zip](../assign/src/CS360_Sorter_HeapQuick.zip). The zip file contains both a Visual Studio project and a Linux/OSX makefile to compile the code. **Sorter.cpp** contains both utility functions as well as empty sort function stubs - you should not need to modify **main()** or *any* of the utility functions.
 
 > -   For each input size, the program generates a *random* array **D[]**
 > -   **D[]** is copied into the array **A[]** *prior* to each sorting function call (such that each sort works on the *same* data sets)
