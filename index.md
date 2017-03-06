@@ -24,7 +24,7 @@ All information about the course will be posted here.
 * **Feb 20** - Assignment 3 Due
 * **Feb 24** - Assignment 4 Due
 * **Feb 27, Mar 1, 3 - NO CLASS (Winter Break)**
-* **Mar 8** - Empirical Comparison Report Due
+* **Mar 10** - Empirical Comparison Report Due
 * **Mar 10 - EXAM II. Take home due in class Wed, Mar 15**
 * **Mar 20** - Assignment 5 Due
 * **Mar 24** - Assignment 6 Due
