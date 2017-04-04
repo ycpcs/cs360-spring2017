@@ -20,7 +20,7 @@ Book Questions from *Introduction to Algorithms - 3rd ed.*
 >
 > ![image](images/assign08/kruskalrun.png)
 >
-> But since |*E*| \< |*V*<sup>2</sup>|, O(lg *E*) = O(lg *V*<sup>2</sup>) = O(2 lg *V*) = O(lg *V*) and hence O(*E* lg *E*) = O(E lg V). Which parts can be improved if we know the range of edge weights?
+> But since \|*E*\| \< \|*V*<sup>2</sup>\|, O(lg *E*) = O(lg *V*<sup>2</sup>) = O(2 lg *V*) = O(lg *V*) and hence O(*E* lg *E*) = O(E lg V). Which parts can be improved if we know the range of edge weights?
 >
 > 23.2-5 - Note that the running time of Prim's algorithm is given by
 >
