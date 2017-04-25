@@ -40,11 +40,11 @@ All reading materials are from the course textbook:
 > Apr 3     | [Lecture 19: Minimum Spanning Trees - Kruskal](../lectures/lecture19.html) | Ch. 23.1 |
 > Apr 5     | [Lecture 20: Minimum Spanning Trees - Prim](../lectures/lecture20.html) | Ch. 23.2 |
 > Apr 7     | [Lecture 21: Shortest Path - Bellman-Ford](../lectures/lecture21.html) | Ch. 24.1-24.2 |
-> Apr 10    | [Lecture 22: Shortest Path - Dijkstra](../lectures/lecture22.html) <br /> [Practice Activity](../handouts/lecture22-ssspact.pdf) [Solution](../handouts/lecture22-ssspactsol.pdf) | Ch. 24.3 |
+> Apr 10    | [Lecture 22: Shortest Path - Dijkstra](../lectures/lecture22.html) <br /> [SSSP Practice Activity](../handouts/lecture22-ssspact.pdf) [SSSP Solution](../handouts/lecture22-ssspactsol.pdf) | Ch. 24.3 |
 > Apr 10    | [Lecture 23: Shortest Path - Floyd-Warshall](../lectures/lecture23.html) | Ch. 25 |
 > Apr 12    | [Lecture 24: Maximal Flow](../lectures/lecture24.html) | Ch. 26.1 |
 > Apr 14, 17| **NO CLASS - SPRING BREAK** |   |
-> Apr 19    | [Lecture 25: Maximal Flow- Ford-Fulkerson](../lectures/lecture25.html) <br /> **Assignment 8 Due 4/19** | Ch. 26.2 |
+> Apr 19    | [Lecture 25: Maximal Flow- Ford-Fulkerson](../lectures/lecture25.html) <br /> [Max Flow Practice Activity](../handouts/lecture25-maxflowact.pdf) [Max Flow Solution](../handouts/lecture25-maxflowactsol.pdf) <br /> **Assignment 8 Due 4/19** | Ch. 26.2 |
 > Apr 21    | [Lecture 26: NP Completeness](../lectures/lecture26.html) | Ch. 34.1-34.3 |
 > Apr 24    | [Lecture 27: NP Complete Problems](../lectures/lecture27.html) | Ch. 34.4 |
 > Apr 26    | [Lecture 28: More NP Complete Problems](../lectures/lecture28.html) <br /> **Assignment 9 Due 4/26** | Ch. 34.5 |
